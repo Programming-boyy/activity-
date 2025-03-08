@@ -3,10 +3,10 @@
     margin: 0;
     font-family: 'Rubik';
     color: #fff;
+    transition: 0.70s;
 }
 body{
     background: linear-gradient(#002, #001);
-    height: 100vh;
 }
 header{
     padding: 7px;
@@ -54,4 +54,11 @@ main{
     border-left: 5px #6600ff solid;
     margin-left: 30px;
     margin-top: 30px;
+}
+.card h3{
+    padding: 7px;
+    font-size: 30px;
+}
+.card:hover{
+    transform: scale(0.95);
 }
